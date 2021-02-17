@@ -1,0 +1,33 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.login-wrapper {
+  max-width: 800px;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+}
+.login-form__row {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
