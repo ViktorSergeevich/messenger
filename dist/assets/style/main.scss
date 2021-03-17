@@ -8,27 +8,27 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+
   align-items: center;
   justify-content: center;
   background-color: #f2f2f2;
-
-}
-.login-wrapper {
-  max-width: 800px;
-  min-width: 400px;
-  margin: 0 auto;
 }
 
 .login-form {
+ max-width: 400px;
+  margin: 0 auto;
+}
+
+.unauthorized, .authorized{
+  display: none;
+}
+
+.guest {
+  display: none;
+}
+.content {
+  padding: 5px;
   background-color: #fff;
-  padding: 20px;
-
-  &__row {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-
-  &__
+  display: flex;
+  flex-direction: column;
 }

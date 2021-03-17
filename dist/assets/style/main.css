@@ -13,21 +13,24 @@
   background-color: #f2f2f2;
 }
 
-.login-wrapper {
-  max-width: 800px;
-  min-width: 400px;
+.login-form {
+  max-width: 400px;
   margin: 0 auto;
 }
 
-.login-form {
-  background-color: #fff;
-  padding: 20px;
+.unauthorized, .authorized {
+  display: none;
 }
-.login-form__row {
+
+.guest {
+  display: none;
+}
+
+.content {
+  padding: 5px;
+  background-color: #fff;
   display: flex;
-  width: 100%;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
